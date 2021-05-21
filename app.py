@@ -111,7 +111,7 @@ card_info = [
                 html.H4("Sobre este site", className="card-title"),
                 html.P(
                     " Este site foi desenvolvido pela VOST Portugal em colaboração com o ACP. "
-                    " As informações que aqui constam são disponibilizadas em tempo real em coordenação com a GNR",
+                    " As informações que aqui constam são disponibilizadas em tempo real em coordenação com a GNR", 
                     className="card-text",
                 ),
                 html.P(
@@ -122,6 +122,10 @@ card_info = [
                 html.P(
                     "This website was developed by VOST Portugal in collaboration with ACP. "
                     "The information contained here is made available in real time in coordination with the GNR",
+                    className="card-text",
+                ),
+                html.P(
+                    "© OpenStreetMap contributors",
                     className="card-text",
                 ),
             ]
