@@ -124,6 +124,10 @@ card_info = [
                     "The information contained here is made available in real time in coordination with the GNR",
                     className="card-text",
                 ),
+                html.P(
+                    "© OpenStreetMap contributors",
+                    className="card-text",
+                ),
             ]
         ),
     ]
